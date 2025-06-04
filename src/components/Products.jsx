@@ -68,7 +68,7 @@ const Products = () => {
 
                             {data.popular === true ? (
                                 <div className="absolute top-2 left-2">
-                                    <p className="popular flex rounded-lg px-2 py-1 popular text-sm font-semibold">
+                                    <p className="popular flex px-2 py-1 popular text-sm font-semibold">
                                         popular
                                     </p>
                                 </div>
