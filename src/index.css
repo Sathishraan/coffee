@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+
+.dark{
+    background-color: #1B1D1F;
+}
+
+*{
+    background-color: #111315;
+}
+
+.buttonbg{
+    background-color: #4D5562;
+}
+.sold{
+    color: #ED735D;
+}
+.popular{
+    background-color: #F6C768;
+}
