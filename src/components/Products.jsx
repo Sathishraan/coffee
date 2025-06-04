@@ -1,6 +1,8 @@
 
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import star from "../assets/Star_fill.svg"
+import emptystar from "../assets/Star.svg"
 
 const Products = () => {
     const [coffeData, setCoffeData] = useState([]);
@@ -90,12 +92,12 @@ const Products = () => {
                             <span className="text-white text-sm flex items-center gap-1">
                                 {data.rating === null ? (
                                     <>
-                                        <img src="/src/assets/Star.svg" alt="star" className="w-4 dark h-4" />
+                                        <img src={emptystar} alt="star" className="w-4 dark h-4" />
                                         {data.rating}
                                     </>
                                 ) : (
                                     <>
-                                        <img src="/src/assets/Star_fill.svg" alt="star" className="w-4  dark h-4" />
+                                        <img src={star} alt="star" className="w-4  dark h-4" />
                                         {data.rating}
                                     </>
                                 )}
