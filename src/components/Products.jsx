@@ -52,7 +52,7 @@ const Products = () => {
             </div>
 
             {/* Product Grid */}
-            <div className="m-8 dark grid gap-8 sm:grid-cols-3 grid-cols-1">
+            <div className="m-8 dark overflow-hidden grid gap-8 sm:grid-cols-3 grid-cols-1">
                 {filteredData.map((data) => (
                     <div key={data.id} className=" dark p-4 rounded-xl shadow-lg">
 
@@ -77,8 +77,8 @@ const Products = () => {
 
                         {/* Name & Price */}
                         <div className="mt-4 dark flex justify-between items-center">
-                            <p className="text-white text-lg font-semibold">{data.name}</p>
-                            <p style={{ backgroundColor: '#BEE3CC' }} className=" text-black text-sm px-2 py-1 rounded-sm font-semibold">
+                            <p className="text-white dark text-lg font-semibold">{data.name}</p>
+                            <p style={{ backgroundColor: '#BEE3CC' }} className=" dark text-black text-sm px-2 py-1 rounded-sm font-semibold">
                                 {data.price}
                             </p>
                         </div>
@@ -90,12 +90,12 @@ const Products = () => {
                             <span className="text-white text-sm flex items-center gap-1">
                                 {data.rating === null ? (
                                     <>
-                                        <img src="/src/assets/Star.svg" alt="star" className="w-4 h-4" />
+                                        <img src="/src/assets/Star.svg" alt="star" className="w-4 dark h-4" />
                                         {data.rating}
                                     </>
                                 ) : (
                                     <>
-                                        <img src="/src/assets/Star_fill.svg" alt="star" className="w-4 h-4" />
+                                        <img src="/src/assets/Star_fill.svg" alt="star" className="w-4  dark h-4" />
                                         {data.rating}
                                     </>
                                 )}
