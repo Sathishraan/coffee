@@ -95,7 +95,7 @@ const Products = () => {
                                     </>
                                 ) : (
                                     <>
-                                        <img src="/src/assets/Star_fill.svg" alt="star" className="w-4 h-4" />
+                                        <img src="/assets/Star_fill.svg" alt="star" className="w-4 h-4" />
                                         {data.rating}
                                     </>
                                 )}
