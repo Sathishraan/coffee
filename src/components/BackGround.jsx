@@ -6,9 +6,9 @@ const BackGround = () => {
     return (
         <div className=' dark relative'>
 
-            <img src={bg} alt="bg" />
+            <img src={bg} alt="bg" className='w-full' />
 
-            <div className='absolute top-15 left-10 right-10'>
+            <div className='absolute top-38 left-35 right-35'>
                 <Header />
             </div>
 

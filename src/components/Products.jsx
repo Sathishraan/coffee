@@ -54,7 +54,7 @@ const Products = () => {
             </div>
 
             {/* Product Grid */}
-            <div className="m-8 dark overflow-hidden grid gap-8 sm:grid-cols-3 grid-cols-1">
+            <div className=" mt-3 m-30 mb-20 dark overflow-hidden grid gap-8 sm:grid-cols-3 grid-cols-1">
                 {filteredData.map((data) => (
                     <div key={data.id} className=" dark p-4 rounded-xl shadow-lg">
 
@@ -63,7 +63,7 @@ const Products = () => {
                             <img
                                 src={data.image}
                                 alt={data.name}
-                                className="rounded-xl w-full h-48 object-cover max-sm:h-35 "
+                                className="rounded-xl w-full h-58 object-cover max-sm:h-35 "
                             />
 
                             {data.popular === true ? (
