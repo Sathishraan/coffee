@@ -54,7 +54,7 @@ const Products = () => {
             </div>
 
             {/* Product Grid */}
-            <div className=" mt-3 m-30 mb-20 dark overflow-hidden grid gap-8 sm:grid-cols-3 grid-cols-1">
+            <div className=" mt-3 m-20 mb-20 dark overflow-hidden grid gap-8 sm:grid-cols-3 grid-cols-1">
                 {filteredData.map((data) => (
                     <div key={data.id} className=" dark p-4 rounded-xl shadow-lg">
 
@@ -63,7 +63,7 @@ const Products = () => {
                             <img
                                 src={data.image}
                                 alt={data.name}
-                                className="rounded-xl w-full h-58 object-cover max-sm:h-35 "
+                                className="rounded-xl w-full h-38 object-cover max-sm:h-35 "
                             />
 
                             {data.popular === true ? (
@@ -109,7 +109,7 @@ const Products = () => {
 
                             </span>
 
-                            <span className='sold dark pl-40 max-sm:pl-23'>{data.available === false ? "sold out" : null}</span>
+                            <span className='sold dark pl-15 max-sm:pl-18'>{data.available === false ? "sold out" : null}</span>
                         </div>
                     </div>
                 ))}

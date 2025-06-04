@@ -14,7 +14,7 @@ const Header = () => {
             <div className='dark'>
 
 
-                <p className='text-gray-400 flex text-center justify-center md:pl-[420px] md:pr-[420px] md:pt-5 max-sm:m-4 dark'>Introducing our coffe Collection, a selection of unique coffees from different roast types and
+                <p className='text-gray-400 flex text-center justify-center md:pl-[230px] md:pr-[230px] md:pt-3 max-sm:m-4 dark'>Introducing our coffe Collection, a selection of unique coffees from different roast types and
                     origins, expertly roasted in small batchesand shipped fresh weekly </p>
 
             </div>
